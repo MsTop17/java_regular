@@ -51,6 +51,7 @@ public class Static
 
         Mobile.Show1(obj1);
 
+
         Class.forName("Mobile");
 
     }

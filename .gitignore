@@ -13,3 +13,5 @@
 # Ignore OS-specific files that clutter the repo
 .DS_Store
 Thumbs.db
+
+# static = static variables should be called / accessed using class name
