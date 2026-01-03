@@ -42,3 +42,8 @@ public class Sorting
         }
     }
 }
+//  Used three pointers (low, mid, high) to partition the array into three zones, moving 0s to the start, 2s to the end, and leaving 1s in the middle.
+
+//  Achieved an O(N) time complexity by scanning the array in a single pass and O(1) space complexity by swapping elements in-place.
+
+//  When swapping a 2 from the mid to the high position, the mid pointer is not incremented immediately to ensure the newly swapped element is evaluated.

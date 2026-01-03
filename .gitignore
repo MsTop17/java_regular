@@ -15,3 +15,7 @@
 Thumbs.db
 
 # static = static variables should be called / accessed using class name
+
+# git add .
+# git commit -m "Your message here"
+# git push origin main
