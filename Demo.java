@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 class Human 
 {
     private int first;
@@ -38,12 +41,17 @@ public class Demo
 {
     public static void main(String[] args) 
     {
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Enter name : ");
+        String name = myObj.nextLine();
+        System.out.println("name is " + name);
         Human obj = new Human();
         obj.setfirst(5);
         obj.setAge(4);
         obj.setName("tamnu");
         // obj.age
-        System.out.println(obj.getName() + ": " + obj.getAge() + " and " + obj.getfirst());
+        System.out.println(obj.getName() + ": " + obj.getAge() + " and " + obj.
+        getfirst());
         
     }
 }
